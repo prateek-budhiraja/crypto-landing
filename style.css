@@ -1,0 +1,103 @@
+:root {
+  --primary: #d32bae;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+
+/* Nav section */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #0D0D0D;
+  color: #fff;
+  align-items: center;
+  padding: 22px 40px;
+}
+
+.logo {
+  width: 70%;
+}
+
+div.line {
+  align-self: center;
+  height: 45px;
+  width: 1px;
+  background-color: #fff;
+  margin-right: 3em;
+}
+
+ul.list {
+  gap: 5em;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+
+li:first-child::after {
+  display: inline-block;
+  content: ">";
+  margin-left: 6px;
+  transform: rotate(90deg);
+}
+
+nav div:nth-child(4) {
+  margin-left: auto;
+}
+
+nav .button-small {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: var(--primary);
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+/* Hero section */
+
+.hero {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-image: url("./assets/bg.png");
+  color: #fff;
+}
+
+.hero .hero-heading {
+  width: 60%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero .hero-description {
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+
+.hero .button-large {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 80px;
+  color: #fff;
+  background-color: var(--primary);
+  border: 0;
+  font-size: 1.3rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
