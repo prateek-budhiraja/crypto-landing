@@ -101,3 +101,34 @@ nav .button-small {
   padding: 15px 30px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 950px) {
+  .logo {
+    width: 90px;
+    margin-right: 30px;
+  }
+
+  .grow-list {
+    display: none;
+  }
+
+  nav .button-small {
+    padding: 8px 15px;
+  }
+
+  .hero .hero-heading {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+
+  .hero .hero-description {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .hero .button-large {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
